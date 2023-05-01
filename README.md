@@ -9,12 +9,19 @@ specific match.
 
 ## Steps To Run Application
 
-1. Install Dependecies
+1. Install dependecies:
 ```
 npm i
 ```
 
-2. Run Node Command
+2. Edit the URL in __scrape.js__ to your specific game:
+```javascript
+// Edit this variable on Line 5
+const url = "https://www.vlr.gg/183774/sentinels-vs-100-thieves-champions-tour-2023-americas-league-w1/?game=all&tab=overview";
+
+```
+
+2. Run command:
 ```
 npm run scrape
 ```
